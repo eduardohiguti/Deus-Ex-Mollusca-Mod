@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "obscuro_ingot",
+  "ingredient": {
+    "item": "molluscamod:deepslate_obscuro_ore"
+  },
+  "result": "molluscamod:obscuro_ingot"
+}

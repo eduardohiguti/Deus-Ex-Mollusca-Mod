@@ -3,7 +3,17 @@
   "item.molluscamod.obscuro_ingot": "Obscuro Ingot",
   "item.molluscamod.raw_obscuro": "Raw Obscuro",
 
-  "block.molluscamod.obscuro_block": "Block Of Obscuro",
+
+
+  "block.molluscamod.obscuro_block": "Block of Obscuro",
+  "block.molluscamod.obscuro_ore": "Obscuro Ore",
+  "block.molluscamod.deepslate_obscuro_ore": "Deepslate Obscuro Ore",
+
+  "block.molluscamod.kitrinos_block": "Block of Kitrinos",
+  "block.molluscamod.kitrinos_ore": "Kitrinos Ore",
+  "block.molluscamod.deepslate_kitrinos_ore": "Deepslate Kitrinos Ore",
+
+
 
   "creativetab.mollusca_tab": "Deus Ex Mollusca Tab"
 

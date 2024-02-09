@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":{
+    "#": {
+      "item": "molluscamod:kitrinos"
+    }
+  },
+  "result": {
+    "item": "molluscamod:kitrinos_block"
+  }
+}

@@ -20,10 +20,16 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.OBSCURO_INGOT.get());
                         pOutput.accept(ModItems.RAW_OBSCURO.get());
+
                         pOutput.accept(ModItems.KITRINOS.get());
 
                         pOutput.accept(ModBlocks.OBSCURO_BLOCK.get());
+                        pOutput.accept(ModBlocks.OBSCURO_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_OBSCURO_ORE.get());
+
                         pOutput.accept(ModBlocks.KITRINOS_BLOCK.get());
+                        pOutput.accept(ModBlocks.KITRINOS_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_KITRINOS_ORE.get());
                     })
                     .build());
 

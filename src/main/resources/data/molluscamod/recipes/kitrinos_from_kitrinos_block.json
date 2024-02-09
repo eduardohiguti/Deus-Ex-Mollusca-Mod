@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "molluscamod:kitrinos_block"
+    }
+  ],
+  "result": {
+    "item": "molluscamod:kitrinos",
+    "count": 9
+  }
+}

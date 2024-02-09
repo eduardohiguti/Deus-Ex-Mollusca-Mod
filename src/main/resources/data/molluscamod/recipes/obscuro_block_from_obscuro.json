@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":{
+    "#": {
+      "item": "molluscamod:obscuro_ingot"
+    }
+  },
+  "result": {
+    "item": "molluscamod:obscuro_block"
+  }
+}
