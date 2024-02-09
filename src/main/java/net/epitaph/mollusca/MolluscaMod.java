@@ -1,6 +1,9 @@
 package net.epitaph.mollusca;
 
 import com.mojang.logging.LogUtils;
+import net.epitaph.mollusca.block.ModBlocks;
+import net.epitaph.mollusca.item.ModCreativeModTabs;
+import net.epitaph.mollusca.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -17,10 +20,16 @@ import org.slf4j.Logger;
 public class MolluscaMod {
 
     public static final String MOD_ID = "molluscamod";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public MolluscaMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
